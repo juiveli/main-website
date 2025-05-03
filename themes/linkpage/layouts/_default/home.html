@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="container">
+  {{ range .Params.links }}
+    <div class="div-item button"> 
+      <a href="{{ .url }}" target="_blank">
+        <img src="{{ .image }}" alt="{{ .title }}">
+      </a>
+      <p class="link-text">
+        <a href="{{ .url }}">{{ .title }}</a>
+      </p>
+    </div>
+  {{ end }}
+</div>
+
+{{ end }}

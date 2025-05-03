@@ -1,0 +1,4 @@
+baseURL = 'https://juiveli.fi/'
+languageCode = 'fi-fi'
+title = 'juiveli.fi'
+theme = 'linkpage'

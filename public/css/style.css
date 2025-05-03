@@ -1,0 +1,45 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrapping */
+    gap: 10px;
+}
+
+.div-item {
+    border: 5px solid black;
+    width: 200px;
+    height: 110px;
+    position: relative;
+}
+
+
+
+.div-item img {
+    width: 100%;
+    height: 80%;
+    object-fit: contain
+}
+
+
+.link-text {
+    position: absolute;
+    margin: 0;
+    bottom: 0; /* Pushes text to the lowest part of the div */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6); /* Optional: improves readability */
+    color: white;
+    text-align: center;
+    width: 100%;
+}

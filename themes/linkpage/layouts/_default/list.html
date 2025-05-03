@@ -1,0 +1,8 @@
+{{ range .Params.links }}
+  <div class="button">
+    <a href="{{ .url }}" target="_blank">
+      <img src="{{ .image }}" alt="{{ .title }}">
+      <p>{{ .title }}</p>
+    </a>
+  </div>
+{{ end }}
